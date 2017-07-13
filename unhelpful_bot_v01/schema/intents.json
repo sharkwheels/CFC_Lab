@@ -1,0 +1,256 @@
+[
+    {
+        "priority": 500000,
+        "responses": [
+            {
+                "action": "say_loop",
+                "messages": [],
+                "parameters": [],
+                "resetContexts": false,
+                "affectedContexts": []
+            }
+        ],
+        "userSays": [
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "begin"
+                    }
+                ]
+            }
+        ],
+        "fallbackIntent": false,
+        "auto": true,
+        "webhookUsed": true,
+        "templates": [],
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "c4ccb1ca-f643-4ac0-8686-eb01c8d978ef",
+        "contexts": [],
+        "name": "looper"
+    },
+    {
+        "priority": 500000,
+        "responses": [
+            {
+                "action": "quit",
+                "messages": [],
+                "parameters": [],
+                "resetContexts": false,
+                "affectedContexts": []
+            }
+        ],
+        "userSays": [
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "ok that's enough"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "stop"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "quit"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "done for today"
+                    }
+                ]
+            }
+        ],
+        "fallbackIntent": false,
+        "auto": true,
+        "webhookUsed": true,
+        "templates": [],
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "8a9a30fb-60a6-4c7c-9cb8-10f10317a580",
+        "contexts": [],
+        "name": "quit"
+    },
+    {
+        "priority": 500000,
+        "responses": [
+            {
+                "action": "help",
+                "messages": [],
+                "parameters": [],
+                "resetContexts": false,
+                "affectedContexts": []
+            }
+        ],
+        "userSays": [
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "help"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "what can i do?"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "what can you do?"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "i need help"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "what is going on?"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "how does this work?"
+                    }
+                ]
+            }
+        ],
+        "fallbackIntent": false,
+        "auto": true,
+        "webhookUsed": true,
+        "templates": [],
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "c4373e42-5856-4905-b22f-4eed76c45816",
+        "contexts": [],
+        "name": "help"
+    },
+    {
+        "priority": 500000,
+        "responses": [
+            {
+                "action": "greetings",
+                "messages": [],
+                "parameters": [],
+                "resetContexts": false,
+                "affectedContexts": []
+            }
+        ],
+        "userSays": [
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "launch"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "start"
+                    }
+                ]
+            },
+            {
+                "count": 0,
+                "isTemplate": false,
+                "data": [
+                    {
+                        "userDefined": false,
+                        "text": "talk to ghost"
+                    }
+                ]
+            }
+        ],
+        "fallbackIntent": false,
+        "auto": true,
+        "webhookUsed": true,
+        "templates": [],
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "33e984be-e248-4c6e-8c52-90885648cd47",
+        "contexts": [],
+        "name": "greetings"
+    },
+    {
+        "priority": 500000,
+        "responses": [
+            {
+                "action": "say_response",
+                "messages": [],
+                "parameters": [],
+                "resetContexts": false,
+                "affectedContexts": []
+            }
+        ],
+        "userSays": [],
+        "fallbackIntent": true,
+        "auto": true,
+        "webhookUsed": true,
+        "templates": [],
+        "webhookForSlotFilling": true,
+        "events": [],
+        "id": "a452b371-f583-46c6-8efd-16ad9cde24e4",
+        "contexts": [],
+        "name": "fallback"
+    }
+]
