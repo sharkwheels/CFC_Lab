@@ -1,0 +1,375 @@
+[
+    {
+        "fallbackIntent": false,
+        "name": "quit",
+        "responses": [
+            {
+                "messages": [],
+                "parameters": [],
+                "action": "quit",
+                "affectedContexts": [],
+                "resetContexts": false
+            }
+        ],
+        "id": "8a9a30fb-60a6-4c7c-9cb8-10f10317a580",
+        "webhookForSlotFilling": true,
+        "events": [],
+        "auto": true,
+        "templates": [],
+        "contexts": [],
+        "userSays": [
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "ok that's enough",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "stop",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "quit",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "done for today",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            }
+        ],
+        "priority": 500000,
+        "webhookUsed": true
+    },
+    {
+        "fallbackIntent": true,
+        "name": "fallback",
+        "responses": [
+            {
+                "messages": [],
+                "parameters": [],
+                "action": "say_response",
+                "affectedContexts": [],
+                "resetContexts": false
+            }
+        ],
+        "id": "a452b371-f583-46c6-8efd-16ad9cde24e4",
+        "webhookForSlotFilling": true,
+        "events": [],
+        "auto": true,
+        "templates": [],
+        "contexts": [],
+        "userSays": [],
+        "priority": 500000,
+        "webhookUsed": true
+    },
+    {
+        "fallbackIntent": false,
+        "name": "swearing",
+        "responses": [
+            {
+                "messages": [],
+                "parameters": [],
+                "action": "swear_response",
+                "affectedContexts": [],
+                "resetContexts": false
+            }
+        ],
+        "id": "707a105d-7e75-4ca8-95c4-70211a853a18",
+        "webhookForSlotFilling": true,
+        "events": [],
+        "auto": true,
+        "templates": [],
+        "contexts": [],
+        "userSays": [
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "what the "
+                    },
+                    {
+                        "text": "fuck",
+                        "alias": "fuck",
+                        "meta": "@fuck",
+                        "userDefined": true
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "why the "
+                    },
+                    {
+                        "text": "fuck",
+                        "alias": "fuck",
+                        "meta": "@fuck",
+                        "userDefined": true
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "shit "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": ""
+                    },
+                    {
+                        "text": "fuck",
+                        "alias": "fuck",
+                        "meta": "@fuck",
+                        "userDefined": true
+                    },
+                    {
+                        "text": "this "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": ""
+                    },
+                    {
+                        "text": "fuck",
+                        "alias": "fuck",
+                        "meta": "@fuck",
+                        "userDefined": true
+                    },
+                    {
+                        "text": "this shit "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "you're an asshole "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "asshole "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "fucking shit "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "you're a jerk "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "why are you being an asshole "
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "what is this shit "
+                    }
+                ],
+                "isTemplate": false
+            }
+        ],
+        "priority": 500000,
+        "webhookUsed": true
+    },
+    {
+        "fallbackIntent": false,
+        "name": "greetings",
+        "responses": [
+            {
+                "messages": [],
+                "parameters": [],
+                "action": "greetings",
+                "affectedContexts": [],
+                "resetContexts": false
+            }
+        ],
+        "id": "33e984be-e248-4c6e-8c52-90885648cd47",
+        "webhookForSlotFilling": true,
+        "events": [],
+        "auto": true,
+        "templates": [],
+        "contexts": [],
+        "userSays": [
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "launch",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "start",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "talk to ghost",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            }
+        ],
+        "priority": 500000,
+        "webhookUsed": true
+    },
+    {
+        "fallbackIntent": false,
+        "name": "help",
+        "responses": [
+            {
+                "messages": [],
+                "parameters": [],
+                "action": "help",
+                "affectedContexts": [],
+                "resetContexts": false
+            }
+        ],
+        "id": "c4373e42-5856-4905-b22f-4eed76c45816",
+        "webhookForSlotFilling": true,
+        "events": [],
+        "auto": true,
+        "templates": [],
+        "contexts": [],
+        "userSays": [
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "help",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "what can i do?",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "what can you do?",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "i need help",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "what is going on?",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            },
+            {
+                "count": 0,
+                "data": [
+                    {
+                        "text": "how does this work?",
+                        "userDefined": false
+                    }
+                ],
+                "isTemplate": false
+            }
+        ],
+        "priority": 500000,
+        "webhookUsed": true
+    }
+]

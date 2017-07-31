@@ -1,0 +1,25 @@
+[
+    {
+        "entries": [
+            {
+                "synonyms": [
+                    "shit",
+                    "hell",
+                    "fuck",
+                    "bitch",
+                    "fucker",
+                    "asshole",
+                    "jerk",
+                    "cunt",
+                    "son of a bitch",
+                    "motherfucker",
+                    "bullshit"
+                ],
+                "value": "fuck"
+            }
+        ],
+        "name": "swears",
+        "id": "29c3537a-8141-428c-9386-b328f9d333ab",
+        "isEnum": null
+    }
+]

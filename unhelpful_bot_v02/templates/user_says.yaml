@@ -1,0 +1,35 @@
+
+help:
+  UserSays:
+  - help
+  - what can i do?
+  - what can you do?
+  - i need help
+  - what is going on?
+  - how does this work?
+quit:
+  UserSays:
+  - ok that's enough
+  - stop
+  - quit
+  - done for today
+greetings:
+  UserSays:
+  - launch 
+  - start 
+  - talk to ghost
+swearing:
+  UserSays:
+  - what the fuck
+  - why the fuck
+  - shit
+  - fuck this
+  - fuck this shit
+  - you're an asshole
+  - asshole
+  - fucking shit
+  - you're a jerk
+  - why are you being an asshole
+  - what is this shit
+  Annotations:
+  - fuck: fuck
